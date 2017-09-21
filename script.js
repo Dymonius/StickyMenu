@@ -2,6 +2,7 @@ var stickElement = document.querySelector(".menu");
 var fixed = false;
 var fixPoint = stickElement.offsetTop;
 
+
 window.onscroll = function () {
     var distance = stickElement.offsetTop - window.pageYOffset;
     var offset = window.pageYOffset; //Получение текущей прокрутки сверху
